@@ -4,8 +4,8 @@ from supabase import create_client
 import io
 
 # --- KONEKSI SUPABASE ---
-SUPABASE_URL = https://fkfrgxplzqfgmgkzyqac.supabase.co
-SUPABASE_KEY = sb_publishable_66pIXoRT35bWJ0sQwB0ftQ_wnSG5vUj
+SUPABASE_URL = "https://fkfrgxplzqfgmgkzyqac.supabase.co"
+SUPABASE_KEY = "sb_publishable_66pIXoRT35bWJ0sQwB0ftQ_wnSG5vUj"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
